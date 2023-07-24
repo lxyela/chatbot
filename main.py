@@ -2,7 +2,6 @@ import threading
 import signal
 from microphone_recoder import MicrophoneRecorder
 from speech_recognize import SpeechRecognizer
-import time
 
 global stop_thread
 stop_thread = threading.Event()
